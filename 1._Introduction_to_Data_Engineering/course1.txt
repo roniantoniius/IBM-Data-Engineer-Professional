@@ -1,0 +1,584 @@
+============================================================================
+Course 1 - Introduction to Data Engineering
+
+
+What is Data Engineering?:
+The field of Data Engineering focuses on the mechanics for the flow and access of data, with the goal of making quality data available for fact-finding and data-driven decision making. The tasks involved in data engineering include collecting source data, processing data, storing data, and making data available to users securely. Data engineering is a team sport, and different skills and specializations are required for the various tasks involved.
+
+Viewpoints: Defining Data Engineering:
+
+Modern data ecosystem includes a network of interconnected and continually evolving entities that include:
+
+Data, that is available in a host of different formats, structures, and sources. 
+
+Enterprise Data Environment, in which raw data is staged so it can be organized, cleaned, and optimized for use by end-users.
+
+End-users, such as business stakeholders, analysts, and programmers who consume data for various purposes.
+
+Emerging technologies such as Cloud Computing, Machine Learning, and Big Data, are continually reshaping the data ecosystem and the possibilities it offers.
+
+Data Engineers, Data Analysts, Data Scientists, Business Analysts, and Business Intelligence Analysts, all play a vital role in the ecosystem for deriving insights and business results from data.
+
+The goal of Data Engineering is to make quality data available for analytics and decision-making. And it does this by collecting raw source data, processing data so it becomes usable, storing data, and making quality data available to users securely.  
+
+
+
+Cloud technologies has made it possible for every enterprise, regardless of its size, to have access to limitless storage and high-performance computing at nominal costs.
+
+Data Engineers are responsible for extracting, integrating, and organizing data into data repositories.
+
+Data engineering is the process of collecting raw data and converting it into analytics-ready data by cleaning, transforming, and preparing data so that it is reliable.
+
+
+One of the responsibilities of a Data Engineer in a data ecosystem is to develop and maintain data architectures so that data is available for business operations and analysis. 
+
+Data engineering includes the collection of data from disparate sources, processing data so that it is usable, storing processed data, and making it available to users securely.
+
+Data extracted from multiple sources can be stored in any type of data repository, such as, databases, data warehouses, and data lakes.
+
+Emerging technologies such as Cloud Computing, Machine Learning, and Big Data are shaping today’s data ecosystem and its possibilities.
+
+
+
+The role of a Data Engineer includes:
+
+Gathering data from disparate sources.
+
+Integrating data into a unified view for data consumers.
+
+Preparing data for analytics and reporting.
+
+Managing data pipelines for a continuous flow of data from source to destination systems.
+
+Managing the complete infrastructure for the collection, processing, and storage of data.
+
+
+
+
+To be successful in their role, Data Engineers need a mix of technical, functional, and soft skills.
+
+Technical Skills include working with different operating systems and infrastructure components such as virtual machines, networks, and application services. It also includes working with databases and data warehouses, data pipelines, ETL tools, big data processing tools, and languages for querying, manipulating, and processing data. 
+
+An understanding of the potential application of data in business is an important skill for a data engineer. Other functional skills include the ability to convert business requirements into technical specifications, an understanding of the software development lifecycle, and the areas of data quality, privacy, security, and governance. 
+
+Soft Skills include interpersonal skills, the ability to work collaboratively, teamwork, and effective communication. 
+
+
+
+As a Data Engineer, you will be required to work through different phases of the software development lifecycle, which includes, ideation, architecture, design, prototyping, testing, deployment, and monitoring.
+
+Oracle Exadata, IBM Db2 Warehouse on Cloud, IBM Netezza Performance Server, and Amazon RedShift are some of the popular data warehouse in use today. 
+
+
+
+A Data Engineer’s ecosystem includes the infrastructure, tools, frameworks, and processes for extracting data, architecting and managing data pipelines and data repositories, managing workflows, developing applications, and managing BI and Reporting tools.
+
+Based on how well-defined the structure of the data is, data can be categorized as
+
+Structured data, that is data which is well organized in formats that can be stored in databases.
+
+Semi-structured data, that is data which is partially organized and partially free-form.
+
+Unstructured data, that is data which can not be organized conventionally into rows and columns.
+
+Data comes in a wide-ranging variety of file formats, such as, delimited text files, spreadsheets, XML, PDF, and JSON, each with its own list of benefits and limitations of use.
+
+Data is extracted from multiple data sources, ranging from relational and non-relational databases, to APIs, web services, data streams, social platforms, and sensor devices.
+
+Once the data is identified and gathered from different sources, it needs to be staged in a data repository so that it can be prepared for analysis. The type, format, and sources of data influence the type of data repository that can be used.
+
+Data professionals need a host of languages that can help them extract, prepare, and analyse data. These can be classified as:
+
+Querying languages, such as SQL, used for accessing and manipulating data from databases.
+
+Programming languages such as Python, R, and Java, for developing applications and controlling application behavior.
+
+Shell and Scripting languages, such as Unix/Linux Shell, and PowerShell, for automating repetitive operational tasks.
+
+
+
+Transactional, or OLTP, systems are designed and optimized for handling high-volume transactions. 
+
+Video and audio files are examples of unstructured data.
+
+PDF format is independent of software, hardware, and operating systems, and can be viewed the same way on any device.
+
+APIs can return data in a wide variety of formats such as plain text, XML, HTML, or JSON among others.
+
+Shell and scripting languages are commonly used for automating repetitive operational tasks.
+
+
+
+Data Warehouses, Data Marts, and Data Lakes:
+
+
+Data Lakehouse A Data Lakehouse is a modern data platform that combines the benefits of a Data Lake and a Data Warehouse. It's like a hybrid system that offers the flexibility and cost-effectiveness of a Data Lake, along with the data management and ACID transactions of a Data Warehouse.
+
+Think of a Data Lakehouse as a single system that allows you to store all types of data (structured, semi-structured, and unstructured) in its raw form, and then apply schema and governance to make it ready for analytics and machine learning.
+
+
+Data Lake A Data Lake is a centralized repository that stores large amounts of structured and unstructured data in its raw, original form. It's like a huge storage container that can hold all types of data, without requiring a predefined schema.
+
+Data Lakes are flexible, durable, and cost-effective, making them ideal for machine learning and data science workloads. They allow data scientists to access and analyze raw data in its native format, without having to transform or process it first.
+
+
+
+Data Warehouse A Data Warehouse is a structured repository that stores processed and transformed data, optimized for querying and analysis. It's like a refined storage container that holds only the data that's relevant for business intelligence and analytics.
+
+Data Warehouses are designed to support business intelligence and reporting, with features like data cleansing, data transformation, and data aggregation. They're typically used by business users who need to access and analyze data for decision-making.
+
+
+A Data Repository is a general term that refers to data that has been collected, organized, and isolated so that it can be used for reporting, analytics, and also for archival purposes. 
+
+The different types of Data Repositories include:
+
+Databases, which can be relational or non-relational, each following a set of organizational principles, the types of data they can store, and the tools that can be used to query, organize, and retrieve data.
+
+Data Warehouses, that consolidate incoming data into one comprehensive store house. 
+
+Data Marts, that are essentially sub-sections of a data warehouse, built to isolate data for a particular business function or use case.
+
+Data Lakes, that serve as storage repositories for large amounts of structured, semi-structured, and unstructured data in their native format.
+
+Big Data Stores, that provide distributed computational and storage infrastructure to store, scale, and process very large data sets.
+
+The ETL, or Extract Transform and Load, Process is an automated process that converts raw data into analysis-ready data by:
+
+Extracting data from source locations.
+
+Transforming raw data by cleaning, enriching, standardizing, and validating it.
+
+Loading the processed data into a destination system or data repository.
+
+The ELT, or Extract Load and Transfer, Process is a variation of the ETL Process. In this process, extracted data is loaded into the target system before the transformations are applied. This process is ideal for Data Lakes and working with Big Data.
+
+Data Pipeline, sometimes used interchangeably with ETL and ELT, encompasses the entire journey of moving data from its source to a destination data lake or application, using the ETL or ELT process.
+
+Data Integration Platforms combine disparate sources of data, physically or logically, to provide a unified view of the data for analytics purposes.
+
+
+ETL (Extract, Transform, Load)
+
+ETL (Extract, Transform, Load)
+
+Imagine you're moving into a new house, and you need to pack your belongings from the old house, transport them to the new house, and then unpack and arrange them in their new locations. This is similar to the ETL process:
+
+Extract: Collecting data from various sources (like packing your belongings).
+Transform: Converting the data into a format that's suitable for analysis (like packing items into boxes).
+Load: Moving the transformed data into a target system, like a Data Warehouse (like unpacking and arranging items in the new house).
+
+
+ELT (Extract, Load, Transform)
+
+ELT is similar to ETL, but with a twist. Instead of transforming the data before loading it, ELT loads the raw data into the target system and then transforms it. This approach is often used in modern data architectures, where data is loaded into a Data Lake or a cloud-based storage system.
+
+Think of ELT like moving into a new house, but instead of packing and unpacking, you:
+
+Extract: Collecting data from various sources (like gathering boxes from the old house).
+Load: Moving the raw data into a target system, like a Data Lake (like moving the boxes into the new house).
+Transform: Converting the data into a format that's suitable for analysis, using tools like data processing engines or machine learning algorithms (like unpacking and arranging items in the new house).
+
+
+Data Pipelines
+
+A Data Pipeline is a series of processes that extract data from sources, transform it, and load it into a target system. It's like a conveyor belt that moves data from one stage to the next, with each stage performing a specific task.
+
+Data Pipelines can be used for both ETL and ELT approaches, and they're often used in modern data architectures to handle large volumes of data. Think of a Data Pipeline like a factory assembly line, where data is processed and transformed as it moves through the pipeline.
+
+
+The term “data repositories” includes not just RDBMSes and NoSQL databases, it also includes data warehouses, data marts, and data lakes.
+
+This is one of the abilities of RDBMSs that make them very well suited for OLTP applications.
+
+Document-based NoSQL databases store each record and its associated data within a single document and work well with Analytics platforms.
+
+A data mart is a sub-section of the data warehouse used to isolate a subset of data for a particular business function, purpose, or community of users.
+
+ELT is useful for processing large sets of unstructured and non-relational data, which makes it ideal for use in data lakes, generally used for storing large amounts of structured, semi-structured, and unstructured data in their native format.
+
+Data Integration extracts and combines disparate source data into a unified view so that data consumers can query and analyze the integrated data.
+
+
+
+One of the most significant advantages of a Relational Database Management System (RDBMS) is that it is ACID-compliant. ACID stands for Atomicity, Consistency, Isolation, and Durability, which are a set of properties that ensure database transactions are processed reliably and securely.
+
+The emergence of NoSQL technology has made it possible for data marts and data warehouses to be used for both relational and non-relational data. 
+
+ACID-Compliance is one of the significant advantages of an RDBMS.
+
+Graph-based NoSQL databases use a graphical model to represent and store data and are used for visualizing, analyzing, and finding connections between different pieces of data.
+
+A Data Lake can store large amounts of structured, semi-structured, and unstructured data in their native format, classified and tagged with metadata.
+
+A data pipeline covers the entire journey of data from source to destination. Data integration is performed within a data pipeline, while ETL is a process within data integration.
+
+
+
+Big Data Processing Tools: Hadoop, HDFS, Hive, and Spark:
+Hadoop
+
+Hadoop is an open-source framework that allows you to store and process large amounts of data (Big Data) in a distributed manner. It's like a big library where you can store all your data, and then use various tools to process and analyze it.
+
+HDFS (Hadoop Distributed File System)
+
+HDFS is a part of Hadoop that allows you to store data in a distributed manner across multiple machines. Imagine a big file cabinet with many drawers, where each drawer can store a lot of files. HDFS is like a super-efficient file cabinet that can store massive amounts of data and retrieve it quickly.
+
+Hive
+
+Hive is a data warehousing tool that sits on top of Hadoop. It's like a database that allows you to query and analyze your data using SQL-like language (HiveQL). Imagine you have a huge spreadsheet with millions of rows, and you want to analyze it quickly. Hive makes it possible to do that.
+
+Spark
+
+Spark is an open-source processing engine that can handle large-scale data processing tasks. It's like a super-fast calculator that can process massive amounts of data in parallel, making it much faster than traditional processing engines. Spark can be used for various tasks, such as data processing, machine learning, and graph processing.
+
+Here's a simple analogy to help you remember the relationship between these tools:
+
+Hadoop is like a big library (stores data)
+HDFS is like a file cabinet (stores data in a distributed manner)
+Hive is like a database (allows you to query and analyze data)
+Spark is like a super-fast calculator (processes data quickly and efficiently)
+
+These tools work together to help you manage and analyze Big Data. For example, you can store your data in HDFS, use Hive to query and analyze it, and then use Spark to process the data quickly and efficiently.
+ 
+
+Big Data refers to the vast amounts of data that is being produced each moment of every day, by people, tools, and machines. The sheer velocity, volume, and variety of data challenged the tools and systems used for conventional data, leading to the emergence of processing tools and platforms designed specifically for Big Data.
+
+Big Data processing technologies help derive value from big data. These include NoSQL databases and Data Lakes and open-source technologies such as Apache Hadoop, Apache Hive, and Apache Spark.
+
+Hadoop provides distributed storage and processing of large datasets across clusters of computers. One of its main components, the Hadoop File Distribution System, or HDFS, is a storage system for big data.
+
+Hive is a data warehouse software for reading, writing, and managing large datasets.
+
+Spark is a general-purpose data processing engine designed to extract and process large volumes of data. 
+Spark is a general-purpose data processing engine used for performing complex data analytics in real-time.
+
+Hadoop, a java-based open-source framework, allows distributed storage and processing of large datasets across clusters of computers.
+
+
+Hive is an open-source data warehouse software for reading, writing, and managing large data sets stored in data storage systems such as HDFS and Apache HBase.
+
+
+Architecting the Data Platform:
+Architecting the Data Platform
+
+Architecting the Data Platform refers to the process of designing and building a comprehensive data management system that can handle the complexities of modern data landscapes. This involves creating a scalable, flexible, and secure data infrastructure that can support various data sources, processing engines, and analytics tools.
+
+A well-architected data platform should be able to:
+
+Ingest and process large volumes of data: Handle high-velocity, high-variety, and high-volume data from various sources, such as IoT devices, social media, and sensors.
+Store and manage data: Provide a scalable and secure data storage solution, such as HDFS, HBase, or cloud-based storage, to store and manage large datasets.
+Process and transform data: Offer a range of data processing engines, such as Spark, Flink, or MapReduce, to process and transform data in real-time or batch mode.
+Support analytics and reporting: Provide a range of analytics tools, such as Hive, Presto, or Tableau, to support data analysis, reporting, and visualization.
+Ensure data quality and governance: Implement data quality checks, data validation, and data governance policies to ensure data accuracy, completeness, and compliance.
+Support real-time analytics and machine learning: Enable real-time analytics and machine learning workloads, such as predictive modeling, recommendation systems, and natural language processing.
+
+
+
+Security:
+
+
+Why Security Matters
+
+Data breaches can lead to financial losses, reputational damage, and legal consequences.
+Sensitive data, such as personal identifiable information (PII), financial data, and confidential business information, must be protected.
+
+Security Threats
+
+Unauthorized Access: Unauthorized users or systems accessing sensitive data.
+Data Tampering: Malicious modification or alteration of data.
+Data Loss: Accidental or intentional deletion or corruption of data.
+Denial of Service (DoS): Overwhelming a system with traffic to make it unavailable.
+
+
+
+The architecture of a data platform can be seen as a set of layers, or functional components, each one performing a set of specific tasks. These layers include:
+
+Data Ingestion or Data Collection Layer, responsible for bringing data from source systems into the data platform.
+
+Data Storage and Integration Layer, responsible for storing and merging extracted data.
+
+Data Processing Layer, responsible for validating, transforming, and applying business rules to data.
+
+Analysis and User Interface Layer, responsible for delivering processed data to data consumers.
+
+Data Pipeline Layer, responsible for implementing and maintaining a continuously flowing data pipeline.
+
+A well-designed data repository is essential for building a system that is scalable and capable of performing during high workloads. 
+
+The choice or design of a data store is influenced by the type and volume of data that needs to be stored, the intended use of data, and storage considerations. The privacy, security, and governance needs of your organization also influence this choice.
+
+The CIA, or Confidentiality, Integrity, and Availability triad are three key components of an effective strategy for information security. The CIA triad is applicable to all facets of security, be it infrastructure, network, application, or data security.
+
+
+
+Systems that are used for capturing high-volume transactional data need to be designed for high-speed read, write, and update operations.
+
+Intrusion Detection and Intrusion Prevention systems inspect network vulnerabilities and intrusion attempts and prevent them from happening.
+
+The Storage and Integration layer in a data platform stores, transforms, and merges extracted data to make it available for data processing.
+
+Which one of these steps is an intrinsic part of the “Data Processing Layer” of a data platform?
+b. Read data in batch or streaming modes from storage and apply transformations
+
+
+What is the role of “Network Access Control” systems in the area of network security?
+c. To ensure endpoint security by allowing only authorized devices to connect to the network
+
+Security Monitoring and Intelligence systems create an audit trail and provide reports and alerts that help enterprises react to security violations in time.
+
+
+Data Wrangling or Data Munging:
+- Data Exploration
+- Transformation
+- Validation
+- Making data available for credible and meaningful analysis
+
+
+Handling missing or inconsistent data
+Converting data types (e.g., from text to numbers)
+Merging data from multiple sources
+Removing duplicates or irrelevant data
+Enriching data by adding new information
+
+
+
+Tools for Data Wrangling
+1. Excel
+2. Google DataPrep
+3. OpenRefine
+4. Watson Studio Refinery
+5. Trifacta Wrangler
+
+
+Depending on where the data must be sourced from, there are a number of methods and tools available for gathering data. These include query languages for extracting data from databases, APIs, Web Scraping, Data Streams, RSS Feeds, and Data Exchanges. 
+
+Once the data you need has been gathered and imported, your next step is to make it analytics-ready. This is where the process of Data Wrangling, or Data Munging, comes in. 
+
+Data Wrangling involves a whole range of transformations and cleansing activities performed on the data. Transformation of raw data includes the tasks you undertake to: 
+
+Structurally manipulate and combine data using Joins and Unions. 
+
+Normalize data, that is, clean the database of unused and redundant data.
+
+Denormalize data, that is, combine data from multiple tables into a single table so that it can be queried faster.
+
+Cleansing activities include: 
+
+Profiling data to uncover anomalies and quality issues.
+
+Visualizing data using statistical methods in order to spot outliers. 
+
+Fixing issues such as missing values, duplicate data, irrelevant data, inconsistent formats, syntax errors, and outliers. 
+
+A variety of software and tools are available for the data wrangling process. Some of the popularly used ones include Excel Power Query, Spreadsheets, OpenRefine, Google DataPrep, Watson Studio Refinery, Trifacta Wrangler, Python, and R, each with their own set of features, strengths, limitations, and applications.
+
+
+APIs are invoked from applications to access an endpoint containing data. Endpoints can include databases, web services, and data marketplaces.
+
+Performance Tuning and Troubleshooting on Databases and Data Pipeline:
+
+
+Performance Tuning:
+
+Performance tuning in the context of databases and data pipelines involves optimizing the performance of database queries, data processing, and data flow to ensure efficient data retrieval, processing, and storage. The goal is to improve response times, increase throughput, and reduce latency
+
+Database Performance Tuning:
+Indexing: Creating indexes on columns used in WHERE, JOIN, and ORDER BY clauses to improve query performance.
+Query optimization: Rewriting queries to reduce complexity, improve join orders, and optimize subqueries.
+Caching: Implementing caching mechanisms, such as query caching or result caching, to reduce the load on the database.
+Connection pooling: Implementing connection pooling to reduce the overhead of creating and closing database connections.
+Database configuration: Optimizing database configuration settings, such as buffer pool size, log file size, and thread pool size.
+
+
+
+Data Pipeline Performance Tuning:
+Data serialization: Optimizing data serialization formats, such as JSON or Avro, to reduce data size and improve processing efficiency.
+Data compression: Implementing data compression algorithms, such as Gzip or Snappy, to reduce data size and improve processing efficiency.
+Parallel processing: Implementing parallel processing techniques, such as MapReduce or parallel queries, to improve data processing efficiency.
+Data partitioning: Partitioning large datasets into smaller, more manageable pieces to improve processing efficiency.
+Resource allocation: Optimizing resource allocation, such as CPU, memory, and I/O, to ensure efficient data processing.
+
+
+
+Troubleshooting:
+
+Troubleshooting in the context of databases and data pipelines involves identifying and resolving issues that affect data retrieval, processing, and storage. This includes:
+
+Database Troubleshooting:
+Query analysis: Analyzing query execution plans to identify performance bottlenecks and optimization opportunities.
+Error logging: Analyzing error logs to identify and resolve database errors, such as connection errors or query timeouts.
+Database monitoring: Monitoring database performance metrics, such as CPU usage, memory usage, and disk I/O, to identify performance issues.
+Lock contention: Identifying and resolving lock contention issues that can cause performance bottlenecks.
+Data Pipeline Troubleshooting:
+Log analysis: Analyzing log files to identify errors, warnings, and other issues that may indicate pipeline problems.
+Data validation: Validating data quality and integrity to identify issues that may affect pipeline performance.
+Pipeline monitoring: Monitoring pipeline performance metrics, such as throughput, latency, and error rates, to identify performance issues.
+Dependency issues: Identifying and resolving issues with dependent systems or services that may affect pipeline performance.
+
+
+
+In this lesson, you have learned,
+
+In order for raw data to become analytics-ready, a number of transformation and cleansing tasks need to be performed on raw data. And that requires you to understand your dataset from multiple perspectives. One of the ways in which you can explore your dataset is to query it. 
+
+Basic querying techniques can help you explore your data, such as, counting and aggregating a dataset, identifying extreme values, slicing data, sorting data, filtering patterns, and grouping data.
+
+In a data engineering lifecycle, the performance of data pipelines, platforms, databases, applications, tools, queries, and scheduled jobs, need to be constantly monitored for performance and availability. 
+
+The performance of a data pipeline can get impacted if the workload increases significantly, or there are application failures, or a scheduled job does not work as expected, or some of the tools in the pipeline run into compatibility issues. 
+
+Databases are susceptible to outages, capacity overutilization, application slowdown, and conflicting activities and queries being executed simultaneously. 
+
+Monitoring and alerting systems collect quantitative data in real time to give visibility into the performance of data pipelines, platforms, databases, applications, tools, queries, scheduled jobs, and more.
+
+Time-based and condition-based maintenance schedules generate data that helps identify systems and procedures responsible for faults and low availability.
+
+
+
+The Standard Deviation function helps us see how far out our values are in a certain numeric column.
+
+Monitoring the quantum of data being processed in a data pipeline at a time helps you assess if the size of the workload is slowing down the system.
+
+
+
+Finding the maximum and minimum values in a data column can help you identify extreme values in that column.
+
+
+Job-level runtime monitoring breaks up a job into a series of logical steps and monitors them for completion and time to completion.
+
+Database normalization helps reduce inconsistencies that arise out of data redundancy and also anomalies arising out of update, delete, and insert operations on databases. 
+
+Governance and Compliance:
+
+Data Governance and Compliance refer to the policies, procedures, and standards that ensure the proper management and use of an organization's data assets. This includes ensuring the accuracy, completeness, and security of data, as well as compliance with relevant laws, regulations, and industry standards.
+
+Effective Data Governance and Compliance involve:
+
+Data Quality: Ensuring that data is accurate, complete, and consistent across the organization.
+Data Security: Protecting data from unauthorized access, use, disclosure, modification, or destruction.
+Data Privacy: Ensuring that personal data is collected, stored, and used in accordance with individual rights and expectations.
+Compliance: Adhering to relevant laws, regulations, and industry standards, such as GDPR, HIPAA, and PCI-DSS.
+Data Management: Establishing policies, procedures, and standards for data management, including data retention, archiving, and disposal.
+Some key benefits of effective Data Governance and Compliance include:
+
+Improved data quality and accuracy
+Enhanced data security and protection
+Increased trust and confidence in data-driven decision-making
+Reduced risk of non-compliance and associated penalties
+Better alignment with industry standards and best practices
+
+
+
+Data Governance is a collection of principles, practices, and processes that help maintain the security, privacy, and integrity of data through its lifecycle.
+
+Personal Information and Sensitive Personal Information, that is, data that can be traced back to an individual or can be used to identify or cause harm to an individual, needs to be protected through governance regulations. 
+
+General Data Protection Regulation, or GDPR, is one such regulation that protects the personal data and privacy of EU citizens for transactions that occur within EU member states. 
+Regulations, such as HIPAA (Health Insurance Portability and Accountability Act) for Healthcare, PCI DSS (Payment Card Industry Data Security Standard) for retail, and SOX (Sarbanes Oxley) for financial data are some of the industry-specific regulations. 
+
+Compliance covers the processes and procedures through which an organization adheres to regulations and conducts its operations in a legal and ethical manner.
+
+Compliance requires organizations to maintain an auditable trail of personal data through its lifecycle, which includes acquisition, processing, storage, sharing, retention, and disposal of data.
+
+Tools and technologies play a critical role in the implementation of a governance framework, offering features such as:
+
+Authentication and Access Control.
+
+Encryption and Data Masking.
+
+Hosting options that comply with requirements and restrictions for international data transfers.
+
+Monitoring and Alerting functionalities.
+
+Data erasure tools that ensure deleted data cannot be retrieved.
+
+
+It is in the Data Sharing phase of the data lifecycle that you establish which third-party vendors will have access to your data, and how they will be held accountable to the same regulations you are liable for.
+
+
+
+Using Anonymization, the presentation layer is abstracted without changing the data in the database itself. 
+
+
+
+Optional: Overview of the DataOps Methodology:
+
+
+Several DataOps Platforms are available in the market, some of the popular ones being IBM DataOps, Nexla, Switchboard, Streamsets, and Infoworks.
+
+DataOps Methodology:
+The purpose of the DataOps Methodology is to enable an organization to utilize a repeatable process to build and deploy analytics and data pipelines. Successful implementation of this methodology allows an organization to know, trust, and use data to drive value.
+
+It ensures that the data used in problem-solving and decision making is relevant, reliable, and traceable and improves the probability of achieving desired business outcomes. And it does so by tackling the challenges associated with inefficiencies in accessing, preparing, integrating, and making data available.
+
+In a nutshell, the DataOps Methodology consists of three main phases:
+
+The Establish DataOps Phase provides guidance on how to set up the organization for success in managing data.
+
+The Iterate DataOps Phase delivers the data for one defined sprint.
+
+The Improve DataOps Phase ensures learnings from each sprint is channeled back to continually improve the DataOps process.
+
+Benefits of using the DataOps methodology:
+Adopting the DataOps methodology helps organizations to organize their data and make it more trusted and secure. Using the DataOps methodology, organizations can:
+
+Automate metadata management and catalog data assets, making them easy to access.
+
+Trace data lineage to establish its credibility and for compliance and audit purposes.
+
+Automate workflows and jobs in the data lifecycle to ensure data integrity, relevancy, and security.
+
+Streamline the workflow and processes to ensure data access and delivery needs can be met at optimal speed.
+
+Ensure a business-ready data pipeline that is always available for all data consumers and business stakeholders.
+
+Build a data-driven culture in the organization through automation, data quality, and governance.
+
+
+Data Engineering is reported to be one of the top ten jobs experiencing tremendous growth in the U.S. today. It is also reported to be one of the fastest growing tech occupations with year-over-year growth of around 50%. 
+
+Currently, the demand for skilled data engineers far outweighs the supply, which means companies are willing to pay a premium to hire skilled data engineers.
+
+Data engineering roles in organizations tend to break the specialization up into Data Architecture, Database Design and Architecture, Data Platforms, Data Pipelines and ETL, Data Warehouses, and Big Data.
+
+Regardless of the niche you choose to specialize in, knowledge of operating systems, languages, databases, and infrastructure components, is essential. 
+
+To work your way up from a Junior Data Engineer to a Lead or Principal Data Engineer, you need to continually advance your technical, functional, and soft skills from a foundational level to an expert level. You need to not only expand your skills in your niche area, but also into other areas of data engineering at the same time.
+
+Big Data Engineers and Machine Learning Engineers are some of the emerging roles in this field and they require specialized skills in addition to basic data engineering.
+
+There are several paths you can consider in order to gain entry into the data engineering field. 
+
+An academic degree in Computer Science or engineering qualifies you for an entry-level job.
+
+If you are not a graduate, or a graduate in a non-relate stream, you can earn professional certifications from online multi-course specializations offered by learning platforms such as Coursera, edX, and Udacity.
+
+If you have a coding background, or you are an IT Support Specialist, a Software Tester, a Programmer, or a data professional such as a Statistician, Data Analyst, or BI Analyst, you can upskill with the help of online courses to become a Data Engineer. 
+
+
+
+As you grow into a lead position, you will serve as a bridge between what business wants and the technical solution created by the data engineering team.
+
+Growing up the ranks will require you to not only expand your skills in your niche, but also in different areas within data engineering.
+
+Along with basic coding skills, knowledge of different operating systems, databases, and languages can get you started in the field of data engineering. 
+
+
+
+When stakeholders pull data from the enterprise data repository, one of the key challenges is ensuring that the method of data access meets stakeholder needs.
+
+Data analysts use the collected data to generate insights.
+
+Which of the following data sources contain semi-structured data?
+c. Email
+
+
+The primary advantage of NoSQL is its ability to handle large volumes of structured, semi-structured, and unstructured data.
+
+Data integration platforms combine disparate sources of data, physically or logically, to provide a unified view of the data for analytics purposes.
+
+The data storage and integration layer makes data available for processing in both streaming and batch modes.
+
+Use the LIKE operator to search for a specific pattern in a column.
+
+Data erasure software overwrites the data, permanently clearing the data from the system. This method for discarding data is preferable to simply deleting the data since you can still retrieve deleted data.
