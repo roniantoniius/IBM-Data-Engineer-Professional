@@ -1,0 +1,258 @@
+============================================================================
+Course 2 - Python for Data Science, AI & Development
+
+Furthermore, you’ll be proficient in reading and writing files and will be able to implement unique ways to collect data using APIs and web scraping. In addition to the module labs, you'll prove your skills in a peer-graded project and your overall knowledge with the final quiz.
+
+
+---------------------------------------------------------------------------
+Module 1: Python Basics
+
+Jupyter's popularity stems from its flexibility and ease of use. Regardless of your level of programming expertise, whether you're an experienced coder or embarking on your data science journey, Jupyter offers an intuitive platform for writing, testing, and sharing code. Its interactive interface enables data exploration, algorithm experimentation, and result visualization—all seamlessly integrated within a unified environment.  
+
+Key Features of Jupyter
+
+  Here are some key features and advantages of Jupyter:
+
+Interactive Computing: Jupyter notebooks enable users to write and execute code interactively. This means you can run code cells individually and see the output immediately, fostering an iterative approach to coding and experimentation.
+
+Support for Multiple Languages: While Jupyter was initially developed for Python (hence the name, which stands for Julia, Python, and R), it now supports various programming languages through its kernel system. This flexibility makes Jupyter suitable for various computational tasks and interdisciplinary collaboration.
+
+Rich Output: Jupyter Notebooks support rich media integration, allowing users to generate interactive plots, charts, images, videos, and more directly within the document. This makes visualizing data, communicating findings, and creating compelling narratives easier.
+
+Integration with Data Science Libraries: Jupyter seamlessly integrates with popular libraries and frameworks used in the data science ecosystem, such as NumPy, Pandas, Matplotlib, sci-kit-learn, TensorFlow, and PyTorch. This allows users to leverage the full power of these tools within the notebook environment for tasks like data manipulation, visualization, machine learning, and deep learning.
+
+Collaboration and Sharing: Jupyter promotes collaboration and reproducibility by allowing users to share their notebooks with others via email, GitHub, or the Jupyter Notebook Viewer. This facilitates knowledge sharing, peer review, and interdisciplinary collaboration, as users can easily exchange ideas, code snippets, and best practices.
+
+
+---------------------------------------------------------------------------
+Module 2: Python Data Structures
+
+
+Cheat Sheet: Lists and Tuples
+
+
+
+
+---------------------------------------------------------------------------
+Module 3: Python Programming Fundamentals
+
+
+2_3_Hands-on1
+
+
+The elif statement (short for "else if") is used to check another condition if the preceding conditions in the if statement are not fulfilled. It allows you to specify an alternative condition to test if all other conditions have failed.
+
+
+
+
+---------------------------------------------------------------------------
+Module 4: Working with Data in Python
+
+
+Module 4 Summary: Working with Data in Python
+Congratulations! You have completed this module. At this point, you know that: 
+
+Python uses the open() function and allows you to read and write files, providing access to the content within the file for reading. It also allows overwriting it for writing and specifies the file mode (for example, r for reading, w for writing, a for appending).
+
+To read a file, Python uses an open function along with r.
+
+Python uses theopen with function to read and process a file attribute, that is, from open to close.
+
+In Python, you use the open method to edit or overwrite a file.
+
+To write a file, Python uses the open function along with w.
+
+In Python, "a" indicates that the program has appended to the file.
+
+In Python, “\n” signifies that the code should start on a new line. 
+
+Python uses various methods to print lines from attributes.
+
+Pandas is a powerful Python library for data manipulation and analysis, providing data structures and functions to work with structured data like data frames and series.
+
+You import the file (panda) by using the import command followed by the file name. 
+
+In Python, you use the as command to provide a shorter name for the file.  
+
+In Pandas, you use a data frame (df) to specify the files to read.
+
+DataFrames consist of rows and columns.  
+
+You can create new DataFrames by using the column or columns of a specific DataFrame.  
+
+We can work with data in a DataFrames and save the results in different formats.
+
+In Python, you use the Unique method to determine unique elements in a column of the DataFrames.
+
+You use the inequality operator along with df to assign a Boolean value to the selected column in DataFrames. 
+
+You save a new DataFrame as a different DataFrame, which may contain values from an earlier DataFrame.
+
+NumPy is a Python library for numerical and matrix operations, offering multidimensional array objects and a variety of mathematical functions to work with data efficiently.
+
+NumPy is a basis for Pandas.
+
+A NumPy array or ND array is similar to a list, usually of a fixed size with the same kind of element.
+
+A one-dimensional NumPy array is a linear sequence of elements with a single axis, like a traditional list, but optimized for numerical computations and array operations.
+
+You can access elements in a NumPy using an index. 
+
+You use the attribute dtype to get the data type of the array elements. 
+
+You use nsize and ndim to get the size and dimension of the array, respectively. 
+
+You can use indexing and slicing methods in NumPy. 
+
+Vector additions are widely used operations in Python. 
+
+Representing vector addition with line segments or arrows is useful.
+
+NumPy codes work much faster, which is helpful with lots of data.
+
+You perform vector subtraction by replacing the addition sign with a negative sign. 
+
+Multiplying an array by a scalar in Python entails multiplying each element of the array by the scalar value, leading to a new array in which each element scales by the scalar.
+
+Hadamard product refers to the element-wise multiplication of two arrays of the same shape, resulting in a new array where each element is the product of the corresponding elements in the input arrays.
+
+The dot product in Python is the sum of the element-wise products of two arrays, often used for vector and matrix operations to find the scalar result of multiplying corresponding elements and summing them.
+
+When working with NumPy, it is common to utilize libraries like Matplotlib to create graphs and visualizations from numerical data stored in NumPy arrays.
+
+A two-dimensional NumPy array is a grid-like structure with rows and columns suitable for representing data as a matrix or a table for numerical computations.
+
+In NumPy, "shape" refers to an array's dimensions (number of rows and columns), indicating its size and structure.
+
+You use the attribute "size" to obtain the size of an array. 
+
+You use rectangular attributes to access the various elements in an array.
+
+ You use a scalar to multiply elements in NumPy.
+
+
+
+---------------------------------------------------------------------------
+Module 5: APIs and Data Collection
+
+API stands for Application Programming Interface. It is a set of rules and protocols that allows different software applications to communicate with each other. APIs define how different software components should interact, specifying the inputs and outputs that each component should provide.
+
+1. Communication: APIs enable two software applications to exchange data and perform actions by sending requests and receiving responses.
+
+2. Functionality: APIs provide a way for developers to access the functionality of a software application or service without needing to understand the underlying implementation details.
+
+3. Standardization: APIs often follow industry standards and conventions, making it easier for developers to integrate different software components and build upon existing systems.
+
+4. Flexibility: APIs can be used to access a wide range of services and resources, such as data, algorithms, or functionality provided by third-party applications.
+
+5. Types of APIs: There are different types of APIs, including web APIs (such as REST APIs), library APIs (which provide functions and methods for specific programming languages), and operating system APIs (which allow applications to interact with the underlying operating system).
+
+6. Documentation: APIs are typically documented, providing developers with information on how to use the API, including the available endpoints, request formats, response formats, and any required authentication.
+
+
+
+
+difference between API libraries and REST APIs
+
+1. API Libraries: An API library is a collection of pre-written functions and methods that developers can use to interact with a specific software or service. These libraries provide a set of functions with predefined inputs and outputs, making it easier for developers to integrate the software into their own applications. API libraries are typically specific to a particular programming language or framework.
+
+2. REST APIs: REST (Representational State Transfer) APIs are a type of web-based API that follows a set of architectural principles. REST APIs allow communication between a client (your program) and a web service over the internet. They use standard HTTP methods (such as GET, POST, PUT, DELETE) to perform operations on resources (data) provided by the web service. REST APIs often use JSON (JavaScript Object Notation) as the format for data exchange.
+
+In summary, API libraries provide pre-written functions to interact with a specific software or service, while REST APIs enable communication between a client and a web service using standard HTTP methods and JSON.
+
+
+
+
+
+REST APIs & HTTP Requests - Part 1:
+key concepts related to REST APIs and HTTP requests. Here is a summary of the main points covered:
+
+1. Uniform Resource Locator (URL): The video explains that a URL is the most popular way to find resources on the web. It consists of three parts: the scheme (protocol), the internet address (base URL), and the route (location on the web server).
+
+2. Request and Response: The video describes the process of sending a request from the client (your browser) to the server and receiving a response. The request is communicated via an HTTP message, which usually contains a JSON file. The server sends back an HTTP response, which includes information about the requested resource, such as its type and length.
+
+3. HTTP Methods: The video introduces different HTTP methods that can be used in requests. The GET method is used to retrieve data from the server, while the POST method is used to send data to the server. Other methods, such as PUT, DELETE, and PATCH, are briefly mentioned.
+
+4. Status Codes: The video explains that status codes are used to indicate the outcome of an HTTP request. Some common status codes are mentioned, such as 200 for success, 401 for unauthorized requests, and 500 for server errors.
+
+REST APIs & HTTP Requests - Part 2:
+Here is an explanation of how to make a GET request to retrieve data using the Requests library:
+
+1. Importing the Requests library: To use the Requests library, you need to import it into your Python script or notebook. You can do this by adding the following line at the beginning of your code:
+
+2. Making a GET request: To retrieve data from a server, you can use the get() method provided by the Requests library. You need to pass the URL of the server or API endpoint you want to retrieve data from as an argument to the get() method. For example, to make a GET request to www.example.com, you can use the following code:
+response = requests.get('http://www.example.com')
+
+3. Handling the response: The get() method returns a response object that contains information about the request and the response from the server. You can access various attributes and methods of the response object to extract the desired information. For example, you can access the status code of the response using the status_code attribute:
+
+print(response.status_code)  # Output: 200
+
+
+4. Accessing the response data: The response object also provides methods to access the response data. For example, you can use the text attribute to get the response body as text:
+
+print(response.text)  # Output: HTML content of the response
+
+
+5. Handling query parameters: If you want to modify the results of your query, you can pass query parameters to the get() method. Query parameters are key-value pairs that are appended to the URL. For example, to include a query parameter name with the value John in your GET request, you can use the following code:
+
+response = requests.get('http://www.example.com', params={'name': 'John'})
+
+
+6. Handling headers: You can also include headers in your GET request to provide additional information to the server. Headers are passed as a dictionary to the headers parameter of the get() method. For example, to include a header User-Agent with the value Mozilla/5.0 in your GET request, you can use the following code:
+
+headers = {'User-Agent': 'Mozilla/5.0'}
+response = requests.get('http://www.example.com', headers=headers)
+
+
+
+Working with Different File Formats:
+It covers topics such as recognizing different file types, using Python libraries to extract data, and using dataframes when collecting data. The different file formats discussed include csv, json, and xml. The Pandas library is introduced as a useful tool for reading csv files and organizing data output. The process of reading json files is explained, as well as parsing xml files using the xml library.
+
+Simple APIs in Python are application programming interfaces that provide straightforward and easy-to-use methods for interacting with services, libraries, or data, often with minimal configuration or complexity.
+
+An API lets two pieces of software talk to each other.
+
+Using an API library in Python entails importing the library, calling its functions or methods to make HTTP requests, and parsing the responses to access data or services provided by the API.
+
+Pandas API processes the data by communicating with the other software components.
+
+An Instance forms when you create a dictionary and then use the DataFrames constructor to create a Pandas object. 
+
+Method “head()” will display the mentioned number of rows from the top (default 5) of DataFrames, while method “mean()” will calculate the mean and return the values
+
+
+
+Rest APIs allow you to communicate through the internet, taking advantage of resources like storage, access more data, AI algorithms, and so on.
+
+HTTP methods transmit data over the internet.
+
+An HTTP message typically includes a JSON file with instructions for operations.
+
+HTTP messages containing JSON files are returned to the client as a response from web services.
+
+Dealing with time series data involves using the Pandas time series function. 
+
+You can get data for daily candlesticks and plot the chart using Plotly with the candlestick plot. 
+
+
+
+The HTTP (HyperText Transfer Protocol) transfers data, including web pages and resources, between a client (a web browser) and a server on the World Wide Web.
+
+The HTTP protocol is commonly used for implementing various types of REST APIs.
+
+An HTTP response includes information like the type of resource, length of resource, and so on
+
+Uniform resource locator (URL) is the most popular way to find resources on the web.
+
+URL is divided into three parts: scheme, internet address or base URL, and route
+
+The GET method is one of the popular methods of requesting information. Some other methods may also include the body.
+
+Response method contains the version and body of the response.
+
+POST submits data to the server, PUT updates data already on the server, DELETE deletes data from the server
+
+
+w mode stands for "write", which will overwrite the existing file content.
+r mode stands for "read", which is used for reading the file content, not for writing.
+rb mode stands for "read binary", which is used for reading binary files, not for writing.
