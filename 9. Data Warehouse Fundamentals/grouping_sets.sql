@@ -1,0 +1,5 @@
+SELECT "STATIONID", "TRUCKTYPE", sum("WASTECOLLECTED") as total_waste_collected
+FROM FACTTRIPS as l
+LEFT JOIN DIMTRUCK as r
+ON l."TRUCKID"=r."TRUCKID"
+group by grouping sets ("STATIONID", "TRUCKTYPE");

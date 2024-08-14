@@ -1,0 +1,5 @@
+CREATE TABLE MyDimZone (
+   zone_id INT NOT NULL PRIMARY KEY,
+   zone_name VARCHAR(10) NOT NULL,
+   city VARCHAR(50) NOT NULL
+);
