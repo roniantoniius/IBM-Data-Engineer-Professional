@@ -1,0 +1,12 @@
+- ./bin/spark-submit is the command to submit applications to a Apache Spark cluster
+- –master k8s://http://127.0.0.1:8001 is the address of the Kubernetes API server - the way kubectl but also the Apache Spark native Kubernetes scheduler interacts with the Kubernetes cluster
+- –name spark-pi provides a name for the job and the subsequent Pods created by the Apache Spark native Kubernetes scheduler are prefixed with that name
+- –class org.apache.spark.examples.SparkPi provides the canonical name for the Spark application to run (Java package and class name)
+- –conf spark.executor.instances=1 tells the Apache Spark native Kubernetes scheduler how many Pods it has to create to parallelize the application. Note that on this single node development Kubernetes cluster increasing this number doesn’t make any sense (besides adding overhead for parallelization)
+- –conf spark.kubernetes.container.image=romeokienzler/spark-py:3.1.2 tells the Apache Spark native Kubernetes scheduler which container image it should use for creating the driver and executor Pods. This image can be custom build using the provided Dockerfiles in kubernetes/dockerfiles/spark/ and bin/docker-image-tool.sh in the Apache Spark distribution
+- -conf spark.kubernetes.executor.limit.cores=0.3 tells the Apache Spark native Kubernetes scheduler to set the CPU core limit to only use 0.3 core per executor Pod
+- –conf spark.kubernetes.driver.limit.cores=0.3 tells the Apache Spark native Kubernetes scheduler to set the CPU core limit to only use 0.3 core for the driver Pod
+- –conf spark.driver.memory=512m tells the Apache Spark native Kubernetes scheduler to set the memory limit to only use 512MBs for the driver Pod
+- –conf spark.kubernetes.namespace=${my_namespace} tells the Apache Spark native Kubernetes scheduler to set the namespace to my_namespace environment variable that we set before.
+local:///opt/spark/examples/jars/spark-examples_2.12-3.1.2.jar indicates the jar file the application is contained in. Note that the local:// prefix addresses a path within the container images provided by the spark.kubernetes.container.image option. Since we’re using a jar provided by the Apache Spark distribution this is not a problem, otherwise the spark.kubernetes.file.upload.path option has to be set and an appropriate storage subsystem has to be configured, as described in the documentation
+- 10 tells the application to run for 10 iterations, then output the computed value of Pi
