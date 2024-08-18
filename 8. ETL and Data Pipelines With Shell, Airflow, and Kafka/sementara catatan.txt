@@ -1,0 +1,14 @@
+Use the point of view of an advanced person who has completed the course on Coursera 'IBM Data Engineer' to answer all the next questions specifically about "ETL and Data Pipelines with Shell, Airflow and Kafka".
+
+
+Give me a summary about this video, but in explainable way, you need to explain it dont just mention it. Do it with point
+
+
+
+
+
+
+
+
+
+
