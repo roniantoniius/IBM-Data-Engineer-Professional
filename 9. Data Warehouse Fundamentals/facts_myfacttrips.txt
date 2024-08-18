@@ -1,0 +1,7 @@
+CREATE TABLE MyFactTrips (
+   trip_number INT NOT NULL PRIMARY KEY,
+   waste_id INT NOT NULL REFERENCES MyDimWaste (waste_id),
+   zone_id INT NOT NULL REFERENCES MyDimZone (zone_id),
+   date_id INT NOT NULL REFERENCES MyDimDate (date_id),
+   waste_in_tons NUMERIC(5, 2) NOT NULL
+);
